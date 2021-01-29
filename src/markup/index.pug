@@ -1,0 +1,43 @@
+doctype html
+html(lang="ru")
+
+    include global/head.pug
+
+    body
+
+        .container
+
+            .promo-wrap
+
+                .promo
+
+                    .promo__logo
+                        img(src='assets/icons/logo.svg')
+                    
+                    .promo__heading Страницы
+                    a(class='promo__text promo__text_link', href='monastyrev.html') Шапка и баннер
+                    a(class='promo__text promo__text_link', href='monastyrev-modal.html') Попап выбора города
+                    a(class='promo__text promo__text_link', href='monastyrev-menu.html') Меню
+
+                    .promo__heading Что сделано
+                    .promo__text — Адаптивность под все (4) стандартные размеры экрана
+                    .promo__text — Адаптивная шапка на гридах (позволяет легко переопределять расположение элементов для адаптивности и прилипшей шапки)
+                    .promo__text — Адаптивное меню на флексах
+                    .promo__text — Легкая анимация навигационных элементов
+                    .promo__text — Дополнительная навигация баннера
+                    .promo__text — Доработаны некоторые иконки в Sketch
+                    .promo__text — Уменьшен размер изображений (SVG) на 22%
+
+                    .promo__heading Что не сделано
+                    .promo__text — Размытие фона при открытом меню (Firefox не поддерживает размытие фона, но есть решение — чуть более длительное по реализации)
+                    .promo__text — Кое где неоптимальный БЭМ (спешка, требуется легкий рефакторинг)
+                    .promo__text — Местами код не готов для передачи фронтендеру (не хавтило времени, требуется легкая оптимизация)
+
+                    .promo__heading Технологический стек
+                    .promo__text #html #css #pug #sass #autoprefixer #svg
+                    
+                    .promo__heading Инструменты
+                    .promo__text #vscode #figma #sketch #chrome #head #coffee
+
+                    .promo__text.promo__text-copywrite Сергей, bobcode@etlgr.com
+                    .promo__text тел. +7 925 453-50-55
